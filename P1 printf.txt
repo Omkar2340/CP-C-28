@@ -1,0 +1,24 @@
+P1 :- Printf function
+Name:- Omkar S. Khanolkar 
+Roll no:- 28
+
+  PROGRAM 
+#include<stdio.h>
+
+#include<conio.h>
+
+ int main ()
+ 
+{
+
+     printf("Talk to a teacher\n");
+  
+     printf("Welcome\n");
+
+     getch();
+ 
+}
+
+  OUTPUT 
+Talk to a teacher
+Welcome

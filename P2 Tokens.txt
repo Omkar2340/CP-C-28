@@ -1,0 +1,42 @@
+P2:- TOKENS 
+Name:- Omkar S. Khanolkar 
+Roll no :-28
+ 
+ PROGRAM 
+
+#include<stdio.h>
+
+#include<conio.h>
+
+ int main ()
+ 
+{
+
+     int A = 2;
+
+     double const B = 4;
+
+     float C=1.5;
+     
+     char D='A';
+
+
+     
+printf("The value of A is %d\n",A);
+ 
+     printf("The value of B is %lf\n",B);
+ 
+     printf("The value of C is %.2f\n",C);
+  
+     printf("The value of D is %c\n",D); 
+
+     getch(); 
+
+ }
+  
+ OUTPUT 
+
+The value of A is 2
+The value of B is 4.000000
+The value of C is 1.50
+The value of D is A
