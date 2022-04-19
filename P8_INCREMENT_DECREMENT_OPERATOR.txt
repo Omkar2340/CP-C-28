@@ -1,0 +1,37 @@
+P8:-INCREMENT AND DECREMENT OPERATOR
+NAME:-Omkar khanolkar
+
+
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    printf("A's value is now %d\n",a++);
+    printf("A's value is now %d\n",a);
+     
+    a=1;
+    printf("A's value is now %d\n",++a);
+    printf("A's value is now %d\n",a);
+    
+    a=1;
+    printf("A's value is now %d\n",a--);
+    printf("A's value is now %d\n",a);
+    
+    a=1;
+    printf("A's value is now %d\n",--a);
+    printf("A's value is now %d\n",a);
+    
+    return 0;
+}
+
+
+OUTPUT
+
+A's value is now 1
+A's value is now 2
+A's value is now 2
+A's value is now 2
+A's value is now 1
+A's value is now 0
+A's value is now 0
+A's value is now 0
